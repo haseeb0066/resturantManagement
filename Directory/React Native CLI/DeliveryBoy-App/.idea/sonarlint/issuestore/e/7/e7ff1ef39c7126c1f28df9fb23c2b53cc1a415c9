@@ -1,0 +1,125 @@
+
+W	java:S125Ğ"<This block of commented-out lines of code should be removed.(©Ëûßıÿÿÿÿ
+V	java:S125b"<This block of commented-out lines of code should be removed.(©—Ó˜şÿÿÿÿ
+k	java:S116E"QRename this field "get_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ŸÎÇÿÿÿÿÿ
+N
+java:S1481„"2Remove this unused "store_Address" local variable.(õÙ©Şşÿÿÿÿ
+^	java:S125Å"<This block of commented-out lines of code should be removed.(­‘˜’ùÿÿÿÿ8Ûè½²Á.
+f	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¤ğ
+l	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş™â®ùÿÿÿÿ
+\
+java:S1155ò">Use isEmpty() to check whether the collection is empty or not.(úƒĞê8â÷èùÁ.
+?
+java:S1604ê"(Make this anonymous inner class a lambda(Œ…Õ
+v
+java:S1450R"YRemove the "searchView" field and declare it as a local variable in the relevant methods.(‰Ôô¦8¶Û¾²Á.
+l	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÁêşÿÿÿÿ
+u
+java:S2293û"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+D
+java:S1185Õ"(Remove this method to simply inherit it.(™Î«şÿÿÿÿ
+D
+java:S1185Ê"(Remove this method to simply inherit it.(ø´´øÿÿÿÿ
+n
+java:S1450O"XRemove the "tabLayout" field and declare it as a local variable in the relevant methods.(¤×ä
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂŞ¿ñıÿÿÿÿ
+l	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÕµÑúÿÿÿÿ
+l	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂŞ¿ñıÿÿÿÿ
+i	java:S100ñ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ£ğ±øÿÿÿÿ
+g	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÄîÜ
+f	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¤ğ
+n	java:S116F"YRename this field "refresh_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç•ºŠ
+
+java:S4144Ğ"bUpdate this method so that its implementation is not identical to "onQueryTextSubmit" on line 584.(‡Ñ¸P8â÷èùÁ.
+I
+java:S1874ø"2Remove this use of "setMessage"; it is deprecated.(Å¦„é
+q	java:S116K"\Rename this field "my_next_modelList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚´Ç
+\
+java:S1854ç"@Remove this useless assignment to local variable "tag_json_obj".(Øªİªşÿÿÿÿ
+w	java:S116J"]Rename this field "my_order_modelList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¡ÑÜşÿÿÿÿ
+g	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÄîÜ
+c
+java:S3008B"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«åÏ5
+L
+java:S1874_"6Remove this use of "ProgressDialog"; it is deprecated.(ÇÁÇ
+W	java:S125…"<This block of commented-out lines of code should be removed.(ÎÜ˜úÿÿÿÿ
+l	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÙ©Şşÿÿÿÿ
+
+java:S1186Ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ
+Q	java:S125I"<This block of commented-out lines of code should be removed.(‰‰å
+v
+java:S1450L"`Remove the "sessionManagement" field and declare it as a local variable in the relevant methods.(Ôõ´é
+n	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ºó8â÷èùÁ.
+n	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ºó8¼ÓòùÁ.
+d
+java:S1192n"IDefine a constant instead of duplicating this literal "assigned" 3 times.(§“ôñûÿÿÿÿ
+i
+java:S3776å"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Û¤šì
+_
+java:S1192™"HDefine a constant instead of duplicating this literal "cart_id" 3 times.(°¹µĞ
+R	java:S125­"<This block of commented-out lines of code should be removed.(ßóÉŠ
+s	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¨üúÿÿÿÿ8â÷èùÁ.
+R	java:S125°"<This block of commented-out lines of code should be removed.(¹‚—Í
+W	java:S125ş"<This block of commented-out lines of code should be removed.(äôü´ùÿÿÿÿ
+^	java:S125¿"<This block of commented-out lines of code should be removed.(Äâ‘›ÿÿÿÿÿ8Ûè½²Á.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÇğÎÿÿÿÿÿ
+d	java:S100÷"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şíƒü
+M
+java:S1481"1Remove this unused "tag_json_obj" local variable.(Øªİªşÿÿÿÿ
+U
+java:S1481¡"2Remove this unused "store_Address" local variable.(õÙ©Şşÿÿÿÿ8â÷èùÁ.
+g	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áĞè
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óë¦¬
+W	java:S125œ"<This block of commented-out lines of code should be removed.(äôü´ùÿÿÿÿ
+]
+java:S1854„"ARemove this useless assignment to local variable "store_Address".(õÙ©Şşÿÿÿÿ
+–
+java:S1186T"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÀŸú
+g	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û§Åğ
+t	java:S116E"ZRename this field "delivery_boy_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ŸÎÇÿÿÿÿÿ
+\
+java:S1854"@Remove this useless assignment to local variable "tag_json_obj".(Øªİªşÿÿÿÿ
+R	java:S125Ú"<This block of commented-out lines of code should be removed.(äçª
+
+java:S1186×"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ
+Q
+java:S1874M"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á”œŸúÿÿÿÿ
+f
+java:S1192o"KDefine a constant instead of duplicating this literal "unassigned" 3 times.(ğ¾üÛıÿÿÿÿ
+l	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øªİªşÿÿÿÿ
+D
+java:S1604¿"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ
+l	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÕµÑúÿÿÿÿ
+E
+java:S1874G"/Remove this use of "Handler"; it is deprecated.(’Ú©Š
+c
+java:S1192"GDefine a constant instead of duplicating this literal "status" 3 times.(ÍìÚ©øÿÿÿÿ
+l	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÙ©Şşÿÿÿÿ
+
+java:S1186¨"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÁêşÿÿÿÿ
+R	java:S125•"<This block of commented-out lines of code should be removed.(¹‚—Í
+H
+java:S1659E"-Declare "delivery_boy_id" on a separate line.(—ŸÎÇÿÿÿÿÿ
+W	java:S125¢"<This block of commented-out lines of code should be removed.(ÎÜ˜úÿÿÿÿ
+H
+java:S1602—",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+M
+java:S1481ç"1Remove this unused "tag_json_obj" local variable.(Øªİªşÿÿÿÿ
+l	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…è˜Èùÿÿÿÿ
+l	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…è˜Èùÿÿÿÿ
+\
+java:S1155Ã">Use isEmpty() to check whether the collection is empty or not.(úƒĞê8â÷èùÁ.
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş™â®ùÿÿÿÿ
+g	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áĞè
+<
+java:S1068B"'Remove this unused "TAG" private field.(«åÏ5
+R	java:S125Ã"<This block of commented-out lines of code should be removed.(ßóÉŠ
+s	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¨üúÿÿÿÿ8¼ÓòùÁ.
+g	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óë¦¬
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øªİªşÿÿÿÿ
+l	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á”œŸúÿÿÿÿ
+N
+java:S1874Š"2Remove this use of "setMessage"; it is deprecated.(Ôä¿Æúÿÿÿÿ
+R	java:S125™"<This block of commented-out lines of code should be removed.(ºÉ™é

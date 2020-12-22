@@ -1,0 +1,23 @@
+
+]	java:S125^"<This block of commented-out lines of code should be removed.(Ô†Äøÿÿÿÿ8ÛÆ²Á.
+	java:S116"cRename this field "my_nextday_order_adapter" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ§Î¥8­Æ²Á.
+a
+java:S1301E"KReplace this "switch" statement by "if" statements to increase readability.( ÔË
+C	java:S1311""Add a default case to this switch.(ñ­“ÿÿÿÿÿ8ÛÆ²Á.
+f
+java:S13011"KReplace this "switch" statement by "if" statements to increase readability.(ñ­“ÿÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(é‰¹øÿÿÿÿ
+t	java:S116s"XRename this field "unAssign_recy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø©€ç8ÛÆ²Á.
+}	java:S116"aRename this field "my_today_order_adapter" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñŸÉ…8ÛÆ²Á.
+f
+java:S11929"KDefine a constant instead of duplicating this literal "unassigned" 4 times.(¦æ£ùÿÿÿÿ
+Q
+java:S1066Y"/Merge this if statement with the enclosing one.(Ú¥üñøÿÿÿÿ8œÇÃ²Á.
+>	java:S131E""Add a default case to this switch.( ÔË8ÛÆ²Á.
+o
+java:S3776N"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÕöÔä8ÛÆ²Á.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ï¨£—üÿÿÿÿ
+d
+java:S11922"IDefine a constant instead of duplicating this literal "assigned" 4 times.(ô­«øûÿÿÿÿ
+w	java:S116j"VRename this field "assign_recy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ«åûÿÿÿÿ8ÛÆ²Á.

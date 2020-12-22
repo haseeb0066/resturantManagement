@@ -1,0 +1,58 @@
+
+D
+java:S1604­"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÏ½
+Q	java:S125–"<This block of commented-out lines of code should be removed.(•Ïü+
+W	java:S125¢"<This block of commented-out lines of code should be removed.(¿ºØŞùÿÿÿÿ
+h	java:S1165"SRename this field "store_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï£«
+R	java:S125±"<This block of commented-out lines of code should be removed.(ºÉ™é
+P
+java:S1144­"9Remove this unused private "whiteNotificationBar" method.(õïØß
+V	java:S125n"<This block of commented-out lines of code should be removed.(şÈçùÿÿÿÿ
+R	java:S125È"<This block of commented-out lines of code should be removed.(º‰ûŒ
+V	java:S125|"<This block of commented-out lines of code should be removed.(­¾èÿÿÿÿÿ
+W	java:S125¤"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+C
+java:S1604u"(Make this anonymous inner class a lambda(íÁª§øÿÿÿÿ
+V	java:S1102"<This class has 9 parents which is greater than 5 authorized.(¥ƒÎõüÿÿÿÿ
+D
+java:S1604¾"(Make this anonymous inner class a lambda(Çéİµıÿÿÿÿ
+Y
+java:S1874¯"=Remove this use of "getSystemUiVisibility"; it is deprecated.(”µÀûşÿÿÿÿ
+>
+java:S1604U"(Make this anonymous inner class a lambda(°§ÎØ
+W	java:S125Ÿ"<This block of commented-out lines of code should be removed.(–“Åıÿÿÿÿ
+Q	java:S125â"<This block of commented-out lines of code should be removed.(ÂÕó 
+Q	java:S125X"<This block of commented-out lines of code should be removed.(•ÌÂÜ
+T
+java:S1874±"=Remove this use of "setSystemUiVisibility"; it is deprecated.(¥ççÉ
+Q
+java:S1874;"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ
+Q	java:S125”"<This block of commented-out lines of code should be removed.(¨é¿8
+c
+java:S1874°"GRemove this use of "SYSTEM_UI_FLAG_LIGHT_STATUS_BAR"; it is deprecated.(ñ¸ßïøÿÿÿÿ
+f	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û§Åğ
+?
+java:S1604æ"(Make this anonymous inner class a lambda(„¬İ™
+Q
+java:S1874J"6Remove this use of "ProgressDialog"; it is deprecated.(¿Ú•ğúÿÿÿÿ
+u
+java:S2293»"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+H
+java:S1874K"2Remove this use of "setMessage"; it is deprecated.(êøç¢
+W	java:S125Š"<This block of commented-out lines of code should be removed.(Ÿƒ¡Äıÿÿÿÿ
+g	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş£˜ï
+R	java:S125"<This block of commented-out lines of code should be removed.(’”Ç÷
+v
+java:S1450:"YRemove the "searchView" field and declare it as a local variable in the relevant methods.(‰Ôô¦8úÌÏ¡Á.
+D
+java:S1604Õ"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ
+R	java:S125’"<This block of commented-out lines of code should be removed.(ïƒÁÌ
+Q	java:S125Ù"<This block of commented-out lines of code should be removed.(Ê¶‡Z
+W	java:S125¨"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+D
+java:S1604ì"(Make this anonymous inner class a lambda(ñ øûÿÿÿÿ
+R	java:S125 "<This block of commented-out lines of code should be removed.(âøœï
+g	java:S117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û§Åğ
+t
+java:S2293q"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ

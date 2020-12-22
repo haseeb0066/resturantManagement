@@ -1,0 +1,209 @@
+
+g
+java:S1301²"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ
+d
+java:S1192”"HDefine a constant instead of duplicating this literal "cart_id" 4 times.(¯Ö„âøÿÿÿÿ
+c
+java:S1192’"GDefine a constant instead of duplicating this literal "status" 4 times.(ğÌèıøÿÿÿÿ
+f
+java:S1192À"ODefine a constant instead of duplicating this literal "json store req" 3 times.(û§Åğ
+e
+java:S1192Â"IDefine a constant instead of duplicating this literal "store_id" 4 times.(¼Š¦“ùÿÿÿÿ
+I
+java:S1199´"-Extract this nested code block into a method.(·ÿ½äûÿÿÿÿ
+Q	java:S110B"<This class has 9 parents which is greater than 5 authorized.(Óõ¾í
+h	java:S101Ş"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»úœ±úÿÿÿÿ
+l	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬½Ñùÿÿÿÿ
+l	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò£¬•øÿÿÿÿ
+g	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û§Åğ
+g	java:S117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û§Åğ
+f	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ†‡w
+g	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û§Åğ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÏ½
+>
+java:S1604i"(Make this anonymous inner class a lambda(°§ÎØ
+?
+java:S1604›"(Make this anonymous inner class a lambda(Ú²¢‰
+D
+java:S1604£"(Make this anonymous inner class a lambda(£İıùÿÿÿÿ
+D
+java:S1604Å"(Make this anonymous inner class a lambda(ßÚÔÊúÿÿÿÿ
+D
+java:S1604Æ"(Make this anonymous inner class a lambda(ÈèšÀÿÿÿÿÿ
+D
+java:S1604â"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ
+D
+java:S1604ğ"(Make this anonymous inner class a lambda(·éçÆùÿÿÿÿ
+D
+java:S1604„"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ
+?
+java:S1604³"(Make this anonymous inner class a lambda(– ûÙ
+D
+java:S1604×"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ
+D
+java:S1604ü"(Make this anonymous inner class a lambda(Çéİµıÿÿÿÿ
+D
+java:S1604’"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ
+?
+java:S1604ı"(Make this anonymous inner class a lambda(š¾…
+D
+java:S1604"(Make this anonymous inner class a lambda(ÈèšÀÿÿÿÿÿ
+D
+java:S1604¢"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ
+p
+java:S1104³"TMake tv_title a static final constant or non-public and provide accessors if needed.(àª–‹ÿÿÿÿÿ
+p
+java:S1104³"TMake tv_price a static final constant or non-public and provide accessors if needed.(àª–‹ÿÿÿÿÿ
+n
+java:S1104³"RMake tv_qty a static final constant or non-public and provide accessors if needed.(àª–‹ÿÿÿÿÿ
+n
+java:S1104´"RMake iv_img a static final constant or non-public and provide accessors if needed.(ØØßÕüÿÿÿÿ
+n
+java:S1104´"RMake delete a static final constant or non-public and provide accessors if needed.(ØØßÕüÿÿÿÿ
+t
+java:S1450N"YRemove the "con_layout" field and declare it as a local variable in the relevant methods.(Óî„¼ÿÿÿÿÿ
+q
+java:S1450K"VRemove the "sale_id" field and declare it as a local variable in the relevant methods.(­±áƒÿÿÿÿÿ
+|
+java:S1450P"aRemove the "session_management" field and declare it as a local variable in the relevant methods.(«éØíüÿÿÿÿ
+A
+java:S1659C"&Declare "order_id" on a separate line.(Ä™×­ÿÿÿÿÿ
+F
+java:S1659C"+Declare "customer_name" on a separate line.(Ä™×­ÿÿÿÿÿ
+E
+java:S1659C"*Declare "order_socity" on a separate line.(Ä™×­ÿÿÿÿÿ
+G
+java:S1659C",Declare "customer_phone" on a separate line.(Ä™×­ÿÿÿÿÿ
+I
+java:S1659C".Declare "customer_address" on a separate line.(Ä™×­ÿÿÿÿÿ
+C
+java:S1659C"(Declare "order_date" on a separate line.(Ä™×­ÿÿÿÿÿ
+C
+java:S1659C"(Declare "order_time" on a separate line.(Ä™×­ÿÿÿÿÿ
+@
+java:S1659C"%Declare "ammount" on a separate line.(Ä™×­ÿÿÿÿÿ
+B
+java:S1659C"'Declare "call_name" on a separate line.(Ä™×­ÿÿÿÿÿ
+F
+java:S1659I"+Declare "confirm_order" on a separate line.(„Æø®şÿÿÿÿ
+A
+java:S1659K"&Declare "store_id" on a separate line.(­±áƒÿÿÿÿÿ
+?
+java:S1659K"$Declare "cartid" on a separate line.(­±áƒÿÿÿÿÿ
+m	java:S116C"SRename this field "order_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä™×­ÿÿÿÿÿ
+r	java:S116C"XRename this field "customer_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä™×­ÿÿÿÿÿ
+q	java:S116C"WRename this field "order_socity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä™×­ÿÿÿÿÿ
+s	java:S116C"YRename this field "customer_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä™×­ÿÿÿÿÿ
+u	java:S116C"[Rename this field "customer_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä™×­ÿÿÿÿÿ
+o	java:S116C"URename this field "order_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä™×­ÿÿÿÿÿ
+o	java:S116C"URename this field "order_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä™×­ÿÿÿÿÿ
+n	java:S116C"TRename this field "call_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä™×­ÿÿÿÿÿ
+e	java:S116D"PRename this field "Phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò¼° 
+l	java:S116E"WRename this field "phone_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œõ§¢
+p	java:S116H"VRename this field "back_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’°óÓıÿÿÿÿ
+o	java:S116I"URename this field "reject_btn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Æø®şÿÿÿÿ
+r	java:S116I"XRename this field "confirm_order" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Æø®şÿÿÿÿ
+t	java:S116J"ZRename this field "rv_detail_order" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ñü¬ÿÿÿÿÿ
+l	java:S116K"RRename this field "sale_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­±áƒÿÿÿÿÿ
+m	java:S116K"SRename this field "store_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­±áƒÿÿÿÿÿ
+~	java:S116L"dRename this field "my_order_detail_modelList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óªÇŠÿÿÿÿÿ
+o	java:S116N"URename this field "con_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óî„¼ÿÿÿÿÿ
+w	java:S116P"]Rename this field "session_management" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«éØíüÿÿÿÿ
+Q
+java:S1874M"6Remove this use of "ProgressDialog"; it is deprecated.(ÿ¢ÿÿÿÿÿ
+m
+java:S3776Y"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(¨Œşÿÿÿÿ
+L
+java:S1874a"6Remove this use of "ProgressDialog"; it is deprecated.(†ÀÍ™
+H
+java:S1874b"2Remove this use of "setMessage"; it is deprecated.(‚ç¡×
+L
+java:S1874×"0Remove this use of "getColor"; it is deprecated.(„ãÂ±øÿÿÿÿ
+L
+java:S1874ß"0Remove this use of "getColor"; it is deprecated.(„ãÂ±øÿÿÿÿ
+L
+java:S1874ç"0Remove this use of "getColor"; it is deprecated.(„ãÂ±øÿÿÿÿ
+L
+java:S1874ï"0Remove this use of "getColor"; it is deprecated.(„ãÂ±øÿÿÿÿ
+J
+java:S1172„".Remove this unused method parameter "sale_id".(Ò£¬•øÿÿÿÿ
+i	java:S100¾"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇŠ§Êøÿÿÿÿ
+u
+java:S2293Á"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+O	java:S106Š"9Replace this use of System.out or System.err by a logger.(ÿÉë£
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+Q
+java:S1117›":Rename "dialog" which hides the field declared at line 77.(§ÃÌ¾
+i
+java:S3776°"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(­œƒÊ
+O	java:S106İ"9Replace this use of System.out or System.err by a logger.(ÿÉë£
+u
+java:S2293ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+u
+java:S2293ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+Q
+java:S1117ƒ":Rename "status" which hides the field declared at line 67.(åÉå­
+2
+java:S3626½"Remove this redundant jump.(ûÁİ…
+=	java:S131²""Add a default case to this switch.(×ö³–úÿÿÿÿ
+i	java:S100Â"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óĞÕ›şÿÿÿÿ
+n
+java:S3252Æ"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(¡ì¯ı
+N
+java:S1135Ç"2Complete the task associated to this TODO comment.(áÃæùÿÿÿÿ
+u
+java:S2293ˆ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+B
+java:S1659³"&Declare "tv_price" on a separate line.(àª–‹ÿÿÿÿÿ
+@
+java:S1659³"$Declare "tv_qty" on a separate line.(àª–‹ÿÿÿÿÿ
+@
+java:S1659´"$Declare "delete" on a separate line.(ØØßÕüÿÿÿÿ
+n	java:S116³"SRename this field "tv_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àª–‹ÿÿÿÿÿ
+n	java:S116³"SRename this field "tv_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àª–‹ÿÿÿÿÿ
+l	java:S116³"QRename this field "tv_qty" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àª–‹ÿÿÿÿÿ
+l	java:S116´"QRename this field "iv_img" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØØßÕüÿÿÿÿ
+o	java:S116µ"YRename this field "store_order_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğù¯·
+C
+java:S1068á",Remove this unused "itemList" private field.(–°á®
+Q	java:S125l"<This block of commented-out lines of code should be removed.(šˆÌÊ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ãáï
+W	java:S125¦"<This block of commented-out lines of code should be removed.(›Ï­¬ÿÿÿÿÿ
+R	java:S125«"<This block of commented-out lines of code should be removed.(ÿ°¿
+R	java:S125·"<This block of commented-out lines of code should be removed.(Ë‚ì¥
+W	java:S125À"<This block of commented-out lines of code should be removed.(ó×–ûÿÿÿÿ
+R	java:S125Â"<This block of commented-out lines of code should be removed.(ÈüÚÛ
+R	java:S125õ"<This block of commented-out lines of code should be removed.(Çæç
+R	java:S125ø"<This block of commented-out lines of code should be removed.(®ƒ÷
+W	java:S125ı"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+W	java:S125ÿ"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ
+W	java:S125‡"<This block of commented-out lines of code should be removed.(¹©óòşÿÿÿÿ
+R	java:S125‰"<This block of commented-out lines of code should be removed.(Ë´ï
+R	java:S125"<This block of commented-out lines of code should be removed.(·ª‚ì
+Q	java:S125"<This block of commented-out lines of code should be removed.(üÆÚ
+Q	java:S125•"<This block of commented-out lines of code should be removed.(Ãéî^
+W	java:S125˜"<This block of commented-out lines of code should be removed.(ı‡ç–ÿÿÿÿÿ
+Q	java:S125›"<This block of commented-out lines of code should be removed.(¨é¿8
+W	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+R	java:S125 "<This block of commented-out lines of code should be removed.(Å¸Ñ¾
+R	java:S125¨"<This block of commented-out lines of code should be removed.(¾“ì·
+Q	java:S125®"<This block of commented-out lines of code should be removed.(ö¾™
+W	java:S125³"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+W	java:S125Ğ"<This block of commented-out lines of code should be removed.(¯€ÊŞÿÿÿÿÿ
+Q	java:S125æ"<This block of commented-out lines of code should be removed.(Ê¶‡Z
+R	java:S125ó"<This block of commented-out lines of code should be removed.(Ïµ€Õ
+W	java:S125Ÿ"<This block of commented-out lines of code should be removed.(¼˜ïÛÿÿÿÿÿ
+R	java:S125±"<This block of commented-out lines of code should be removed.(íâö·
+R	java:S125¶"<This block of commented-out lines of code should be removed.(Ïµ€Õ
+R	java:S125Ç"<This block of commented-out lines of code should be removed.(Ìü®ê
+W	java:S125ç"<This block of commented-out lines of code should be removed.(ª´¾ıÿÿÿÿ
+W	java:S125ö"<This block of commented-out lines of code should be removed.(Ó³ıÿÿÿÿ
+W	java:S125ø"<This block of commented-out lines of code should be removed.(ñÉÜĞÿÿÿÿÿ
+W	java:S125‡"<This block of commented-out lines of code should be removed.(¯€ÊŞÿÿÿÿÿ
+Q	java:S125–"<This block of commented-out lines of code should be removed.(Ê¶‡Z
+W	java:S125¹"<This block of commented-out lines of code should be removed.(ÿœ¥ˆüÿÿÿÿ
+W	java:S125Ö"<This block of commented-out lines of code should be removed.(–“Åıÿÿÿÿ
+Q	java:S125¦"<This block of commented-out lines of code should be removed.(Ê¶‡Z
+M
+java:S1144ï"1Remove this unused private "confirmorder" method.(ûÛ©Àıÿÿÿÿ

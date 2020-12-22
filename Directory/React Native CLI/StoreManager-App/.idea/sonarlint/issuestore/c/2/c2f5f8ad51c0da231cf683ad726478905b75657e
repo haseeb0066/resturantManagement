@@ -1,0 +1,45 @@
+
+?
+java:S1659"(Declare "unit_value" on a separate line.(άε¦
+A
+java:S1659"*Declare "product_desp" on a separate line.(άε¦
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Γ’”μϊÿÿÿÿ
+h
+java:S1104"QMake price a static final constant or non-public and provide accessors if needed.(άε¦
+V	java:S1256"<This block of commented-out lines of code should be removed.(Σ¤ύÿÿÿÿ
+V	java:S125W"<This block of commented-out lines of code should be removed.(µϋΞΜώÿÿÿÿ
+m	java:S116"WRename this field "product_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(άε¦
+f
+java:S1104"OMake mrp a static final constant or non-public and provide accessors if needed.(άε¦
+f
+java:S1104"OMake qty a static final constant or non-public and provide accessors if needed.(άε¦
+8
+java:S1659"!Declare "mrp" on a separate line.(άε¦
+i
+java:S1104"RMake delete a static final constant or non-public and provide accessors if needed.(ζ»‘
+o
+java:S1104"XMake product_desp a static final constant or non-public and provide accessors if needed.(άε¦
+w	java:S116!"]Rename this field "session_management" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ιΨνόÿÿÿÿ
+o
+java:S1104"XMake product_name a static final constant or non-public and provide accessors if needed.(άε¦
+;
+java:S1659"$Declare "delete" on a separate line.(ζ»‘
+:
+java:S1659"#Declare "price" on a separate line.(άε¦
+k	java:S116"URename this field "unit_value" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(άε¦
+W	java:S125™"<This block of commented-out lines of code should be removed.(ΰακΘψÿÿÿÿ
+V	java:S125E"<This block of commented-out lines of code should be removed.(»Α ϋÿÿÿÿ
+m
+java:S1104"VMake unit_value a static final constant or non-public and provide accessors if needed.(άε¦
+m	java:S116"WRename this field "product_desp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(άε¦
+V	java:S125J"<This block of commented-out lines of code should be removed.(®¦±Οόÿÿÿÿ
+W	java:S125§"<This block of commented-out lines of code should be removed.(›—ψÿÿÿÿ
+8
+java:S1659"!Declare "qty" on a separate line.(άε¦
+V	java:S125"<This block of commented-out lines of code should be removed.(δρζώϊÿÿÿÿ
+o
+java:S1104"XMake productimage a static final constant or non-public and provide accessors if needed.(ζ»‘
+Q	java:S125Y"<This block of commented-out lines of code should be removed.(δΎω©
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”€οβ
+>
+java:S1604T"(Make this anonymous inner class a lambda(Ύ…

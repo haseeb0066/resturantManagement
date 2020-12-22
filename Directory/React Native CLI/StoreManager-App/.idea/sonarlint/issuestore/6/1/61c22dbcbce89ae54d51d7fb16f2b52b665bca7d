@@ -1,0 +1,81 @@
+
+I
+java:S1444C"3Make this "public static currency_sign" field final(øÄìâ
+d
+java:S1192^"IDefine a constant instead of duplicating this literal "language" 3 times.(¯•ĞÉúÿÿÿÿ
+j
+java:S1192¨"NDefine a constant instead of duplicating this literal "Home_fragment" 3 times.(ˆÜñÚıÿÿÿÿ
+P	java:S110A"<This class has 9 parents which is greater than 5 authorized.(Äz
+g	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìù»¥
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û§Åğ
+D
+java:S1604Ë"(Make this anonymous inner class a lambda(©‹Ù™ÿÿÿÿÿ
+D
+java:S1604Ü"(Make this anonymous inner class a lambda(©‹Ù™ÿÿÿÿÿ
+?
+java:S1604­"(Make this anonymous inner class a lambda(ÅÅàÑ
+D
+java:S1604ˆ"(Make this anonymous inner class a lambda(ß•Œ¢şÿÿÿÿ
+>
+java:S1604ş"(Make this anonymous inner class a lambda(ÿ£Ù
+D
+java:S1604‹"(Make this anonymous inner class a lambda(ÂÅú½ÿÿÿÿÿ
+D
+java:S1604¡"(Make this anonymous inner class a lambda(–àßñùÿÿÿÿ
+D
+java:S1604»"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ
+o
+java:S1104C"YMake currency_sign a static final constant or non-public and provide accessors if needed.(øÄìâ
+`
+java:S2583Ä"DChange this condition so that it does not always evaluate to "false"(ÁÀ€ïúÿÿÿÿ
+n
+java:S3008C"XRename this field "currency_sign" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÄìâ
+l	java:S116I"RRename this field "tv_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª »²ùÿÿÿÿ
+i	java:S116J"URename this field "iv_profile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÔp
+m	java:S116K"SRename this field "nav_menu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Üˆ­úÿÿÿÿ
+Z
+java:S1854•">Remove this useless assignment to local variable "headerView".(›å¢»øÿÿÿÿ
+m
+java:S3776U"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(¨Œşÿÿÿÿ
+U
+java:S1874"9Remove this use of "setDrawerListener"; it is deprecated.(ø¶Âßÿÿÿÿÿ
+M
+java:S1874˜"6Remove this use of "setColorFilter"; it is deprecated.(¥­Úå
+c
+java:S3252ş"MUse static access with "android.text.Spanned" for "SPAN_INCLUSIVE_INCLUSIVE".(á‰šp
+T
+java:S1854"8Remove this useless assignment to local variable "args".(´‰Ó²şÿÿÿÿ
+D	java:S108Ó")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ
+R
+java:S1854ğ"6Remove this useless assignment to local variable "id".(ªÙğúÿÿÿÿ
+V
+java:S1854":Remove this useless assignment to local variable "params".(ô›Óíüÿÿÿÿ
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+W
+java:S1854©";Remove this useless assignment to local variable "message".(ëè Øúÿÿÿÿ
+M
+java:S2696®"6Make the enclosing method "static" or remove this set.(‡ÿó¡
+D
+java:S1185İ"(Remove this method to simply inherit it.(ÜÁ×¥üÿÿÿÿ
+K
+java:S1481•"/Remove this unused "headerView" local variable.(›å¢»øÿÿÿÿ
+E
+java:S1481")Remove this unused "args" local variable.(´‰Ó²şÿÿÿÿ
+C
+java:S1481ğ"'Remove this unused "id" local variable.(ªÙğúÿÿÿÿ
+H
+java:S1481©",Remove this unused "message" local variable.(ëè Øúÿÿÿÿ
+G
+java:S1481"+Remove this unused "params" local variable.(ô›Óíüÿÿÿÿ
+=
+java:S1068B"'Remove this unused "TAG" private field.(‘‚™´
+R	java:S125¢"<This block of commented-out lines of code should be removed.(õˆíÿ
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(®åÓš
+R	java:S125±"<This block of commented-out lines of code should be removed.(‘ê”İ
+W	java:S125µ"<This block of commented-out lines of code should be removed.(ÔÍŠÍøÿÿÿÿ
+R	java:S125¿"<This block of commented-out lines of code should be removed.(¬ë×
+S
+java:S1144ö"7Remove this unused private "openLanguageDialog" method.(Öúäçüÿÿÿÿ
+I
+java:S1144›"-Remove this unused private "currency" method.(ò¿ĞŸùÿÿÿÿ

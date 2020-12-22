@@ -1,0 +1,113 @@
+
+R	java:S125œ"<This block of commented-out lines of code should be removed.(¹ÚÈù
+W	java:S125€"<This block of commented-out lines of code should be removed.(ùÜåÙÿÿÿÿÿ
+R	java:S125´"<This block of commented-out lines of code should be removed.(šíõŒ
+i	java:S100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òõ¦¡ûÿÿÿÿ
+Q	java:S1254"<This block of commented-out lines of code should be removed.(åš‚Ú
+d	java:S100ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Óè¸
+g	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¨ğö
+i	java:S100Ù"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ëïíıÿÿÿÿ
+v	java:S116ã"YRename this field "payment_status" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âéŸ‰8õÓâ«Á.
+W	java:S125Ä"<This block of commented-out lines of code should be removed.(ŸåÂ¤şÿÿÿÿ
+Q	java:S125$"<This block of commented-out lines of code should be removed.(³É™ô
+k	java:S100á"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İñÿÅ8ã«Á.
+V	java:S125d"<This block of commented-out lines of code should be removed.(Æä–äıÿÿÿÿ
+i	java:S100ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢µŒ§ûÿÿÿÿ
+l	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ëïíıÿÿÿÿ
+i	java:S100¼"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÚşäüÿÿÿÿ
+Q	java:S125h"<This block of commented-out lines of code should be removed.(è•‘
+u	java:S116Ü"ZRename this field "remaining_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ü½–ùÿÿÿÿ
+d	java:S100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¤ã®
+Q	java:S125l"<This block of commented-out lines of code should be removed.(…¬˜¦
+j	java:S116Ú"TRename this field "user_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÚªÇ
+V	java:S125P"<This block of commented-out lines of code should be removed.(åÑ±üÿÿÿÿ
+g	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¤ã®
+d	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âüè«
+d	java:S100ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½§¡¨
+s	java:S116Ş"]Rename this field "delivery_boy_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Äë¢
+Q	java:S125("<This block of commented-out lines of code should be removed.(š›¼Ï
+W	java:S125˜"<This block of commented-out lines of code should be removed.(Âæ –ùÿÿÿÿ
+m	java:S116Ø"WRename this field "user_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùâ©ã
+W	java:S125¸"<This block of commented-out lines of code should be removed.(í×Ü×øÿÿÿÿ
+R	java:S125¬"<This block of commented-out lines of code should be removed.(ÖÔ²Á
+n	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İñÿÅ8ã«Á.
+t	java:S116å"YRename this field "customer_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÎğ¢øÿÿÿÿ
+V	java:S125D"<This block of commented-out lines of code should be removed.(°à“ôøÿÿÿÿ
+i	java:S100Æ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ƒ•ùÿÿÿÿ
+Q	java:S125T"<This block of commented-out lines of code should be removed.(¼¼şá
+‡
+java:S1319¸"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¾ Æ
+q	java:S116ß"VRename this field "order_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òùøÿÿÿÿ
+i	java:S100°"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÑø¾şÿÿÿÿ
+V	java:S125`"<This block of commented-out lines of code should be removed.(î²èûúÿÿÿÿ
+W	java:S125Ì"<This block of commented-out lines of code should be removed.(şİƒúùÿÿÿÿ
+V	java:S125p"<This block of commented-out lines of code should be removed.(ÄÌûûÿÿÿÿÿ
+w	java:S116İ"\Rename this field "delivery_boy_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ÉúĞøÿÿÿÿ
+o	java:S116á"TRename this field "time_slot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—«”üÿÿÿÿ
+Q	java:S125 "<This block of commented-out lines of code should be removed.(ÜÛ¬’
+R	java:S125Ô"<This block of commented-out lines of code should be removed.(ÿ¦ŞÌ
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ÈÙï
+d	java:S100¸"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ Æ
+l	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ÿ½úÿÿÿÿ
+d	java:S100”"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¨ğö
+Q	java:S125"<This block of commented-out lines of code should be removed.(şíÛ
+Q	java:S1258"<This block of commented-out lines of code should be removed.(ÜÏÊÓ
+V	java:S125X"<This block of commented-out lines of code should be removed.(Äšå¬øÿÿÿÿ
+l	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢µŒ§ûÿÿÿÿ
+i	java:S100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ÿ½úÿÿÿÿ
+c	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ñ¨[
+V	java:S125t"<This block of commented-out lines of code should be removed.(¼¥èùÿÿÿÿ
+r	java:S116â"WRename this field "payment_mode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë™¬’ÿÿÿÿÿ
+d	java:S100ì"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ½¾›
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(º×£¦
+i	java:S100Ñ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÚ¶Úøÿÿÿÿ
+l	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òõ¦¡ûÿÿÿÿ
+m	java:S116à"XRename this field "delivery_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ·¸b
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×‰îşÿÿÿÿ
+l	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Çöÿÿÿÿÿ
+d	java:S100è"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÚëÚ
+i	java:S100¿"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖœÌÎıÿÿÿÿ
+Q	java:S125@"<This block of commented-out lines of code should be removed.(Ú´äè
+d	java:S100ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨á”Š
+d	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¢š‚
+V	java:S125x"<This block of commented-out lines of code should be removed.(©Ã´úÿÿÿÿ
+”
+java:S1319¼"xThe type of the "order_details" object should be an interface such as "List" rather than the implementation "ArrayList".(ÇÚşäüÿÿÿÿ
+W	java:S125”"<This block of commented-out lines of code should be removed.(Ì¢ñ«úÿÿÿÿ
+m	java:S116Ù"RRename this field "cart_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌˆöÒúÿÿÿÿ
+i	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”¡Üóøÿÿÿÿ
+c	java:S100Õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙŒÿ-
+V	java:S125\"<This block of commented-out lines of code should be removed.(¤ø›Öùÿÿÿÿ
+i	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Çöÿÿÿÿÿ
+W	java:S125Œ"<This block of commented-out lines of code should be removed.(ˆ›—…şÿÿÿÿ
+W	java:S125„"<This block of commented-out lines of code should be removed.(Œ®Ê£üÿÿÿÿ
+l	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÚ¶Úøÿÿÿÿ
+W	java:S125¼"<This block of commented-out lines of code should be removed.(§ê¤Âüÿÿÿÿ
+g	java:S117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ½¾›
+l	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÚşäüÿÿÿÿ
+Q	java:S125<"<This block of commented-out lines of code should be removed.(†ùÙ
+i	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÛ¢„üÿÿÿÿ
+c	java:S100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±«P
+W	java:S125¨"<This block of commented-out lines of code should be removed.(ÆÙêÎûÿÿÿÿ
+Q	java:S1250"<This block of commented-out lines of code should be removed.(˜“€Í
+V	java:S125H"<This block of commented-out lines of code should be removed.(²äñÛúÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(‹íûşÿÿÿÿ
+l	java:S117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ƒ•ùÿÿÿÿ
+g	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¢š‚
+Q	java:S125L"<This block of commented-out lines of code should be removed.(Äó†£
+g	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½§¡¨
+Q	java:S125,"<This block of commented-out lines of code should be removed.(è»»
+k	java:S100İ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ñÑ8ã«Á.
+R	java:S125 "<This block of commented-out lines of code should be removed.(ğúñº
+W	java:S125¤"<This block of commented-out lines of code should be removed.(¸¢›¹ÿÿÿÿÿ
+W	java:S125È"<This block of commented-out lines of code should be removed.(İĞ’ßÿÿÿÿÿ
+i	java:S100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ÌÎ®ùÿÿÿÿ
+r	java:S116ä"WRename this field "order_status" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯´¹¹øÿÿÿÿ
+Q	java:S125|"<This block of commented-out lines of code should be removed.(†¹—
+W	java:S125À"<This block of commented-out lines of code should be removed.(òæ›úıÿÿÿÿ
+Q	java:S125°"<This block of commented-out lines of code should be removed.(ƒáè
+i	java:S100Ê"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®é»õûÿÿÿÿ
+R	java:S125Ğ"<This block of commented-out lines of code should be removed.(èÂòÊ
+p	java:S116Û"URename this field "user_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹©±Ñüÿÿÿÿ
+s	java:S116æ"XRename this field "order_details" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù®Íıÿÿÿÿ
+f	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ñ¨[

@@ -1,0 +1,8 @@
+
+r	java:S116"QRename this field "map_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å‡”Ïıÿÿÿÿ8êèÕÀ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×‰îşÿÿÿÿ
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÑŒ¾ıÿÿÿÿ8¶˜ÔÀ.
+v	java:S116"URename this field "mapbox_api" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€£Â»øÿÿÿÿ8½ËÔÀ.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’éåöÿÿÿÿÿ8¶˜ÔÀ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û°Ğ˜8êèÕÀ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’éåöÿÿÿÿÿ8¶˜ÔÀ.

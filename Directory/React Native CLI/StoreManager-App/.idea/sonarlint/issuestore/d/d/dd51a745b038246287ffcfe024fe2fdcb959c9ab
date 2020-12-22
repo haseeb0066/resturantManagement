@@ -1,0 +1,24 @@
+
+y
+java:S14503"WRemove the "back_btn" field and declare it as a local variable in the relevant methods.(ÉŒÓúøÿÿÿÿ8¤Ã¢ŽÀ.
+t	java:S1163"SRename this field "back_btn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉŒÓúøÿÿÿÿ8¤Ã¢ŽÀ.
+|	java:S1164"[Rename this field "search_view_recy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëä¦Œûÿÿÿÿ8î×£ŽÀ.
+ž
+java:S1186g"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8½õµ«À.
+£
+java:S1186l"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ8½õµ«À.
+]	java:S1100"<This class has 9 parents which is greater than 5 authorized.(ŸÜÀ±ÿÿÿÿÿ8¨ÜŽÀ.
+w	java:S1162"VRename this field "search_text" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú×ÙÜüÿÿÿÿ8¨ÜŽÀ.
+¤
+java:S1186Š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èþÿÿÿÿ8¨ÜŽÀ.
+M
+java:S1481Æ"/Remove this unused "statusCode" local variable.(ó‡øÂ8Ò²¹«À.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÏž½
+^
+java:S3252X"AUse static access with "com.android.volley.Request" for "Method".(Îâ“á8¨ÜŽÀ.
+T
+java:S1611Ÿ"6Remove the parentheses around the "response" parameter(°‰„8Ò²¹«À.
+Z
+java:S1611¢"7Remove the parentheses around the "exception" parameter(¶ˆØ¦ýÿÿÿÿ8Ò²¹«À.
+^	java:S125Ï"<This block of commented-out lines of code should be removed.(–“Åýÿÿÿÿ8Ò²¹«À.
+^	java:S125µ"<This block of commented-out lines of code should be removed.(‘½ˆÒÿÿÿÿÿ8Ò²¹«À.

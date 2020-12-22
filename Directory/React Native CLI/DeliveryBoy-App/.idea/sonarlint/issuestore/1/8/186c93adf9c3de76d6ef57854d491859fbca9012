@@ -1,0 +1,122 @@
+
+n
+java:S1450T"YRemove the "iv_profile" field and declare it as a local variable in the relevant methods.(áÔp
+W	java:S125É"<This block of commented-out lines of code should be removed.(ªÖ÷úÿÿÿÿ
+L
+java:S1874h"6Remove this use of "ProgressDialog"; it is deprecated.(›ãÙ¯
+R	java:S125Â"<This block of commented-out lines of code should be removed.( şÖ
+W	java:S125ö"<This block of commented-out lines of code should be removed.(œÔò¥ıÿÿÿÿ
+E
+java:S1481Ï")Remove this unused "args" local variable.(´‰Ó²şÿÿÿÿ
+R	java:S125Ò"<This block of commented-out lines of code should be removed.(æÜÃì
+W	java:S125‚"<This block of commented-out lines of code should be removed.(°Ä®šùÿÿÿÿ
+m
+java:S3776a"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(¨Œşÿÿÿÿ
+R	java:S125ã"<This block of commented-out lines of code should be removed.(ÿ‡š„
+h
+java:S3776¦"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÍıæO
+}
+java:S1450["`Remove the "sharedPreferences" field and declare it as a local variable in the relevant methods.(„ºÌ¬8ü¥ÀıÁ.
+R	java:S125Ü"<This block of commented-out lines of code should be removed.(æÜÃì
+W	java:S125á"<This block of commented-out lines of code should be removed.(¡Ñ®ÿÿÿÿÿ
+R	java:S125Ë"<This block of commented-out lines of code should be removed.(Ü° 
+W	java:S125ÿ"<This block of commented-out lines of code should be removed.(–³…ûÿÿÿÿ
+Q	java:S125ú"<This block of commented-out lines of code should be removed.(Àâ‰
+i	java:S116T"URename this field "iv_profile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÔp
+T
+java:S1854Ï"8Remove this useless assignment to local variable "args".(´‰Ó²şÿÿÿÿ
+W	java:S125È"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+W	java:S125—"<This block of commented-out lines of code should be removed.(ÚšÕÄùÿÿÿÿ
+R	java:S125™"<This block of commented-out lines of code should be removed.(ğ­Û
+l	java:S116V"RRename this field "tv_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª »²ùÿÿÿÿ
+W	java:S125š"<This block of commented-out lines of code should be removed.(°Ä®šùÿÿÿÿ
+u
+java:S2293¯"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+I
+java:S1874¨"2Remove this use of "setMessage"; it is deprecated.(¯Á×ş
+
+java:S1186î"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ
+W	java:S125Ò"<This block of commented-out lines of code should be removed.(Íœ××şÿÿÿÿ
+W	java:S125ã"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+c
+java:S3252"MUse static access with "android.text.Spanned" for "SPAN_INCLUSIVE_INCLUSIVE".(á‰šp
+o	java:S116Q"URename this field "_longitude" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÒ·˜úÿÿÿÿ
+F
+java:S1444F"0Make this "public static navigation" field final(èåû·
+D
+java:S1604´"(Make this anonymous inner class a lambda(‹œ¤ úÿÿÿÿ
+W	java:S125Ë"<This block of commented-out lines of code should be removed.(ªÔç”üÿÿÿÿ
+W	java:S125ú"<This block of commented-out lines of code should be removed.(øüŒšşÿÿÿÿ
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(¢ñ¡úıÿÿÿÿ
+W	java:S125õ"<This block of commented-out lines of code should be removed.(Ç±Œ¥úÿÿÿÿ
+^
+java:S1192‚"GDefine a constant instead of duplicating this literal "Active" 3 times.(şöÄ
+W	java:S125ß"<This block of commented-out lines of code should be removed.(£‰êªùÿÿÿÿ
+l	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øªİªşÿÿÿÿ
+R	java:S125–"<This block of commented-out lines of code should be removed.(©í²Ë
+R	java:S125"<This block of commented-out lines of code should be removed.(…üéÙ
+C
+java:S1659Q"(Declare "_longitude" on a separate line.(İÒ·˜úÿÿÿÿ
+W	java:S125‘"<This block of commented-out lines of code should be removed.(êî÷‡úÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+Q	java:S125è"<This block of commented-out lines of code should be removed.(ª¯°q
+O
+java:S1128"4Remove this unused import 'android.app.AlertDialog'.(ª½øşüÿÿÿÿ
+C
+java:S1068T".Remove this unused "iv_profile" private field.(áÔp
+W	java:S125Í"<This block of commented-out lines of code should be removed.(Ò®Òüüÿÿÿÿ
+K
+java:S1481¸"/Remove this unused "headerView" local variable.(›å¢»øÿÿÿÿ
+R	java:S125ğ"<This block of commented-out lines of code should be removed.(õ¡ÿ
+F
+java:S1068\"+Remove this unused "editor2" private field.(É”ÚÛùÿÿÿÿ
+W	java:S125Û"<This block of commented-out lines of code should be removed.(é´Êúûÿÿÿÿ
+R	java:S125æ"<This block of commented-out lines of code should be removed.(Ú†Æá
+Y
+java:S1126”"BReplace this if-then-else statement by a single method invocation.(šşšµ
+R	java:S125å"<This block of commented-out lines of code should be removed.(»¼ãÂ
+D
+java:S1185À"(Remove this method to simply inherit it.(ÜÁ×¥üÿÿÿÿ
+W	java:S125Î"<This block of commented-out lines of code should be removed.(áíüÈùÿÿÿÿ
+W	java:S125Œ"<This block of commented-out lines of code should be removed.(³€÷éÿÿÿÿÿ
+Q	java:S125í"<This block of commented-out lines of code should be removed.(ª¯°q
+R	java:S125è"<This block of commented-out lines of code should be removed.(şÑÍ¢
+P	java:S110C"<This class has 9 parents which is greater than 5 authorized.(Äz
+Q	java:S125ò"<This block of commented-out lines of code should be removed.(ª¯°q
+R	java:S125£"<This block of commented-out lines of code should be removed.(„úĞã
+Z
+java:S1854¸">Remove this useless assignment to local variable "headerView".(›å¢»øÿÿÿÿ
+W	java:S125ë"<This block of commented-out lines of code should be removed.(ê¤”úÿÿÿÿÿ
+R
+java:S1874¹"6Remove this use of "setColorFilter"; it is deprecated.(Ö©¯ûÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(™œãï
+R	java:S125Ø"<This block of commented-out lines of code should be removed.(Şè”ò
+q
+java:S1450\"VRemove the "editor2" field and declare it as a local variable in the relevant methods.(É”ÚÛùÿÿÿÿ
+t	java:S116^"ZRename this field "delivery_boy_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ò¤”ıÿÿÿÿ
+n	java:S116Q"TRename this field "_latitude" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÒ·˜úÿÿÿÿ
+W	java:S125Å"<This block of commented-out lines of code should be removed.(Üéàıÿÿÿÿ
+W	java:S125ÿ"<This block of commented-out lines of code should be removed.(êî÷‡úÿÿÿÿ
+Q	java:S125ß"<This block of commented-out lines of code should be removed.(ª¯°q
+R	java:S125…"<This block of commented-out lines of code should be removed.(ÉÆƒ
+`
+java:S2583ğ"DChange this condition so that it does not always evaluate to "false"(ÁÀ€ïúÿÿÿÿ
+@
+java:S1068W"*Remove this unused "bitmap" private field.(¢üÀ–
+Q
+java:S1874]"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ
+D
+java:S1185÷"(Remove this method to simply inherit it.(œƒƒ©ùÿÿÿÿ
+W	java:S125æ"<This block of commented-out lines of code should be removed.(óêšúÿÿÿÿ
+k	java:S117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¶±ÿÿÿÿÿ
+W	java:S125”"<This block of commented-out lines of code should be removed.(°Ä®šùÿÿÿÿ
+b
+java:S1192}"GDefine a constant instead of duplicating this literal "status" 6 times.(¥¶±ÿÿÿÿÿ
+l
+java:S1104F"VMake navigation a static final constant or non-public and provide accessors if needed.(èåû·
+R	java:S125Å"<This block of commented-out lines of code should be removed.(ĞÆÿ
+g	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÙÖè
+W	java:S125Ö"<This block of commented-out lines of code should be removed.(•å£Áøÿÿÿÿ
+W	java:S125ü"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+R	java:S125¤"<This block of commented-out lines of code should be removed.(§¼Éç
+m	java:S116U"SRename this field "nav_menu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Üˆ­úÿÿÿÿ

@@ -1,0 +1,10 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ฺฏ๙ÿÿÿÿ8ก๏นกร.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ยกถ๛ÿÿÿÿ8ก๏นกร.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ฉฺ8ก๏นกร.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ยกถ๛ÿÿÿÿ8ก๏นกร.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ฺฏ๙ÿÿÿÿ8ก๏นกร.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ื๎þÿÿÿÿ
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ฅ ๏8ก๏นกร.
+s	java:S116"RRename this field "city_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(๓๐฿ฝÿÿÿÿÿ8วเทกร.
+u	java:S116"TRename this field "city_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ฯýÿÿÿÿ8ูดธกร.

@@ -1,0 +1,30 @@
+
+V	java:S110."<This class has 9 parents which is greater than 5 authorized.(À›ÞÂùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÏž½
+>
+java:S1604F"(Make this anonymous inner class a lambda(°§ÎØ
+C
+java:S1604^"(Make this anonymous inner class a lambda(Ñ³ÚÕúÿÿÿÿ
+C
+java:S1604s"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ
+>
+java:S1604Ì"(Make this anonymous inner class a lambda(ÿ£Ù
+D
+java:S1604Ö"(Make this anonymous inner class a lambda(ÂÅú½ÿÿÿÿÿ
+o
+java:S14501"TRemove the "mList" field and declare it as a local variable in the relevant methods.(ß£Û³øÿÿÿÿ
+k	java:S1160"VRename this field "back_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éù•Ü
+Y
+java:S1874¶"=Remove this use of "getSystemUiVisibility"; it is deprecated.(”µÀûþÿÿÿÿ
+c
+java:S1874·"GRemove this use of "SYSTEM_UI_FLAG_LIGHT_STATUS_BAR"; it is deprecated.(ñ¸ßïøÿÿÿÿ
+T
+java:S1874¸"=Remove this use of "setSystemUiVisibility"; it is deprecated.(¥ççÉ
+Q	java:S125I"<This block of commented-out lines of code should be removed.(Ú¾º²
+W	java:S125œ"<This block of commented-out lines of code should be removed.(¬•“šûÿÿÿÿ
+W	java:S125¦"<This block of commented-out lines of code should be removed.(–“Åýÿÿÿÿ
+W	java:S125¿"<This block of commented-out lines of code should be removed.(¨›öõþÿÿÿÿ
+P
+java:S1144´"9Remove this unused private "whiteNotificationBar" method.(õïØß
+S
+java:S1144Ä"7Remove this unused private "openLanguageDialog" method.(Öúäçüÿÿÿÿ

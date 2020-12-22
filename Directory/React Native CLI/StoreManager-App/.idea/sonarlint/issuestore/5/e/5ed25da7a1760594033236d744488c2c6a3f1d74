@@ -1,0 +1,36 @@
+
+i
+java:S3008,"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—­„òÿÿÿÿÿ
+
+java:S1186â"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ
+>	java:S108\")Either remove or fill this block of code.(‚§Á¦
+k	java:S116/"WRename this field "btn_continue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÂ®w
+s
+java:S14504"XRemove the "btnForgot" field and declare it as a local variable in the relevant methods.(§å¦Èûÿÿÿÿ
+l	java:S117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íòıŒıÿÿÿÿ
+F
+java:S1874d"0Remove this use of "getColor"; it is deprecated.(İİÉ
+K
+java:S1874|"0Remove this use of "getColor"; it is deprecated.(†ÒßÜûÿÿÿÿ
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(“ÙÂÕúÿÿÿÿ
+l	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÑå£üÿÿÿÿ
+l	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¡úĞüÿÿÿÿ
+f	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àĞá3
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÏ½
+F
+java:S1874p"0Remove this use of "getColor"; it is deprecated.(İİÉ
+K
+java:S1874w"0Remove this use of "getColor"; it is deprecated.(†ÒßÜûÿÿÿÿ
+p
+java:S1450/"[Remove the "btn_continue" field and declare it as a local variable in the relevant methods.(ÓÂ®w
+K
+java:S1874e"0Remove this use of "getColor"; it is deprecated.(†ÒßÜûÿÿÿÿ
+V	java:S110+"<This class has 9 parents which is greater than 5 authorized.(•«ú§üÿÿÿÿ
+p
+java:S14505"ZRemove the "btnRegister" field and declare it as a local variable in the relevant methods.(š¥ÉÅ
+g	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è£Í
+u
+java:S2293¡"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+F
+java:S1874k"0Remove this use of "getColor"; it is deprecated.(İİÉ

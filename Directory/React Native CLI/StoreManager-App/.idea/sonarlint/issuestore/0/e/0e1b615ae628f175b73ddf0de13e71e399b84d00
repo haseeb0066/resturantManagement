@@ -1,0 +1,143 @@
+
+x
+java:S1104”"\Make customer_address a static final constant or non-public and provide accessors if needed.(öï¦çÿÿÿÿÿ
+D
+java:S1604Ç"(Make this anonymous inner class a lambda(õéóÔøÿÿÿÿ
+n
+java:S1104•"XMake payment_mode a static final constant or non-public and provide accessors if needed.( ÇÑ
+W	java:S125­"<This block of commented-out lines of code should be removed.(ÅóÜûÿÿÿÿ
+W	java:S125Ø"<This block of commented-out lines of code should be removed.(ûöÊîıÿÿÿÿ
+W	java:S125¾"<This block of commented-out lines of code should be removed.(ƒùù€ÿÿÿÿÿ
+R	java:S125´"<This block of commented-out lines of code should be removed.(®ƒ÷
+q	java:S116”"VRename this field "tv_order_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öï¦çÿÿÿÿÿ
+h	java:S116,"SRename this field "Boy_List" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÈµ
+E
+java:S1659”")Declare "tv_order_id" on a separate line.(öï¦çÿÿÿÿÿ
+R	java:S125”"<This block of commented-out lines of code should be removed.(ƒºÏ¨
+q
+java:S1104•"[Make Assign_Boy_name a static final constant or non-public and provide accessors if needed.( ÇÑ
+l	java:S116š"QRename this field "Boy_Id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´½½¹ÿÿÿÿÿ
+q
+java:S1104—"UMake card_view a static final constant or non-public and provide accessors if needed.(û±ÎÄüÿÿÿÿ
+R	java:S125“"<This block of commented-out lines of code should be removed.(‡üº
+c	java:S100ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú¢ñ'
+D
+java:S1604Ñ"(Make this anonymous inner class a lambda(ñ­áøüÿÿÿÿ
+m	java:S116•"XRename this field "tv_order_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÇÑ
+R	java:S125Å"<This block of commented-out lines of code should be removed.(›†™Õ
+t
+java:S1104”"XMake tv_assign_to a static final constant or non-public and provide accessors if needed.(öï¦çÿÿÿÿÿ
+r	java:S116”"WRename this field "tv_assign_to" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öï¦çÿÿÿÿÿ
+R	java:S125»"<This block of commented-out lines of code should be removed.(®ƒ÷
+>
+java:S1604ü"(Make this anonymous inner class a lambda(•ÁñS
+F
+java:S1659”"*Declare "tv_assign_to" on a separate line.(öï¦çÿÿÿÿÿ
+W	java:S125¥"<This block of commented-out lines of code should be removed.(¡›À‹üÿÿÿÿ
+W	java:S125Œ"<This block of commented-out lines of code should be removed.(¼«Ù“üÿÿÿÿ
+W	java:S125³"<This block of commented-out lines of code should be removed.(©»ÅÓùÿÿÿÿ
+r	java:S116˜"WRename this field "Selected_Boy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¸ÜŠûÿÿÿÿ
+z
+java:S1104”"^Make tv_customer_socity a static final constant or non-public and provide accessors if needed.(öï¦çÿÿÿÿÿ
+L
+java:S1659”"0Declare "tv_customer_socity" on a separate line.(öï¦çÿÿÿÿÿ
+o	java:S116”"TRename this field "tv_status" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öï¦çÿÿÿÿÿ
+J
+java:S1144ô"4Remove this unused private "SelectBoyDialog" method.(ú¢ñ'
+V	java:S125x"<This block of commented-out lines of code should be removed.(©ºïŠøÿÿÿÿ
+b
+java:S1192Ë"FDefine a constant instead of duplicating this literal "today" 3 times.(¿õ¢ˆÿÿÿÿÿ
+R	java:S125Â"<This block of commented-out lines of code should be removed.(ˆ¤êò
+?
+java:S1068›"(Remove this unused "Json" private field.(æ‹Ãò
+K
+java:S1659”"/Declare "tv_customer_phone" on a separate line.(öï¦çÿÿÿÿÿ
+W	java:S125¥"<This block of commented-out lines of code should be removed.(­½áÃüÿÿÿÿ
+Q	java:S125R"<This block of commented-out lines of code should be removed.(İïÌ
+v	java:S116–"aRename this field "Assign_Order_to_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç•§
+s	java:S116œ"XRename this field "assign_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¤øùúÿÿÿÿ
+V	java:S125b"<This block of commented-out lines of code should be removed.(Û²¦¡øÿÿÿÿ
+W	java:S125Ş"<This block of commented-out lines of code should be removed.(±ÕÙÙüÿÿÿÿ
+L
+java:S1874–"0Remove this use of "getColor"; it is deprecated.(„èú¦øÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”€ïâ
+x
+java:S1104”"\Make tv_customer_name a static final constant or non-public and provide accessors if needed.(öï¦çÿÿÿÿÿ
+y
+java:S1104”"]Make tv_customer_phone a static final constant or non-public and provide accessors if needed.(öï¦çÿÿÿÿÿ
+L
+java:S1874ˆ"0Remove this use of "getColor"; it is deprecated.(„èú¦øÿÿÿÿ
+B
+java:S10680",Remove this unused "inflater" private field.(Ÿ†õ
+@
+java:S1659•"*Declare "payment_mode" on a separate line.( ÇÑ
+W	java:S125Ê"<This block of commented-out lines of code should be removed.(Ş×¬Åûÿÿÿÿ
+A
+java:S1659•"+Declare "tv_order_time" on a separate line.( ÇÑ
+J
+java:S1659”".Declare "customer_address" on a separate line.(öï¦çÿÿÿÿÿ
+A
+java:S1659•"+Declare "tv_order_date" on a separate line.( ÇÑ
+C
+java:S1659”"'Declare "tv_status" on a separate line.(öï¦çÿÿÿÿÿ
+V	java:S1258"<This block of commented-out lines of code should be removed.(ôöÙŸúÿÿÿÿ
+Q	java:S125g"<This block of commented-out lines of code should be removed.(Úƒ¯‘
+V	java:S1251"<This block of commented-out lines of code should be removed.(‡ùô’ıÿÿÿÿ
+Q	java:S125®"<This block of commented-out lines of code should be removed.(Å¥÷l
+R	java:S125¢"<This block of commented-out lines of code should be removed.(—õŸñ
+R	java:S125²"<This block of commented-out lines of code should be removed.(”•Õ
+R	java:S125¯"<This block of commented-out lines of code should be removed.(¡Õ±š
+w	java:S116”"\Rename this field "tv_customer_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öï¦çÿÿÿÿÿ
+r
+java:S1104”"VMake tv_ammount a static final constant or non-public and provide accessors if needed.(öï¦çÿÿÿÿÿ
+e	java:S116›"ORename this field "Json" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ‹Ãò
+L
+java:S1874"0Remove this use of "getColor"; it is deprecated.(„èú¦øÿÿÿÿ
+W	java:S125Ï"<This block of commented-out lines of code should be removed.(Ëã‰úÿÿÿÿ
+R	java:S125š"<This block of commented-out lines of code should be removed.(‡üº
+o	java:S116™"TRename this field "SelectBoy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†˜—…ıÿÿÿÿ
+u
+java:S1104–"_Make Assign_Order_button a static final constant or non-public and provide accessors if needed.(ç•§
+v	java:S116”"[Rename this field "tv_customer_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öï¦çÿÿÿÿÿ
+q
+java:S1104”"UMake tv_status a static final constant or non-public and provide accessors if needed.(öï¦çÿÿÿÿÿ
+V	java:S1256"<This block of commented-out lines of code should be removed.(ñÚÈ‡ıÿÿÿÿ
+v	java:S116”"[Rename this field "customer_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öï¦çÿÿÿÿÿ
+W	java:S125·"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+R	java:S125–"<This block of commented-out lines of code should be removed.(ÈâÊ†
+o	java:S116—"TRename this field "card_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û±ÎÄüÿÿÿÿ
+s	java:S116–"^Rename this field "Assign_Order_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç•§
+R	java:S125»"<This block of commented-out lines of code should be removed.(ˆ¤êò
+p	java:S116-"VRename this field "BOY_LIST_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Õ“ıÿÿÿÿ
+m	java:S116•"XRename this field "tv_order_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÇÑ
+x
+java:S1104–"bMake Assign_Order_to_layout a static final constant or non-public and provide accessors if needed.(ç•§
+o
+java:S1104•"YMake tv_order_date a static final constant or non-public and provide accessors if needed.( ÇÑ
+G
+java:S1659–"1Declare "Assign_Order_button" on a separate line.(ç•§
+o	java:S116•"ZRename this field "Assign_Boy_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÇÑ
+s
+java:S1104”"WMake tv_order_id a static final constant or non-public and provide accessors if needed.(öï¦çÿÿÿÿÿ
+W	java:S125Ä"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+o
+java:S1104•"YMake tv_order_time a static final constant or non-public and provide accessors if needed.( ÇÑ
+p	java:S116”"URename this field "tv_ammount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öï¦çÿÿÿÿÿ
+b	java:S101("MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(×ÒÀ¾
+W	java:S125"<This block of commented-out lines of code should be removed.(õÛç øÿÿÿÿ
+?
+java:S1604Ø"(Make this anonymous inner class a lambda(Ö¹™º
+w	java:S1164"]Rename this field "session_management" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«éØíüÿÿÿÿ
+C
+java:S1659•"-Declare "Assign_Boy_name" on a separate line.( ÇÑ
+Q	java:S125ã"<This block of commented-out lines of code should be removed.(Û³Œ<
+J
+java:S1659”".Declare "tv_customer_name" on a separate line.(öï¦çÿÿÿÿÿ
+L
+java:S1874"0Remove this use of "getColor"; it is deprecated.(„èú¦øÿÿÿÿ
+l	java:S116•"WRename this field "payment_mode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÇÑ
+h
+java:S3776P"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(·œ»Í
+x	java:S116”"]Rename this field "tv_customer_socity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öï¦çÿÿÿÿÿ
+R	java:S125Ã"<This block of commented-out lines of code should be removed.(Ì‡¼¨
+R	java:S125¶"<This block of commented-out lines of code should be removed.(Ô£ î
