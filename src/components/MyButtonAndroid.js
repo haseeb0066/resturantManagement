@@ -1,0 +1,48 @@
+import React from 'react'
+import { Text, StyleSheet, TouchableNativeFeedback, View, TouchableOpacity, Platform} from 'react-native';
+import Colors from '../constants/Colors';
+
+
+
+function My_Buttons(props) {
+
+    let ButtonComponent=TouchableOpacity;
+    if(Platform.Version>=21){
+        ButtonComponent=TouchableNativeFeedback;
+    }
+
+    return (
+        <View style={styles.buttonContainer}>
+        <ButtonComponent activeOpacity={0.8} onPress={props.onPress} >
+        <View style={styles.button}>
+            <Text style={styles.buttonText}>
+                {props.children}
+            </Text>
+        </View>
+        </ButtonComponent>
+        </View>
+    )
+}
+
+const styles=StyleSheet.create({
+    button:{
+        backgroundColor: Colors.accentColor,
+        paddingVertical:12,
+        paddingHorizontal:60,
+        borderRadius:25,
+        marginTop: 50,
+        
+    },
+    buttonContainer:{
+        borderRadius:10,
+    },
+    buttonText:{
+        color: 'white',
+        fontSize:17,
+        fontWeight:'bold',
+  
+    }
+
+})
+
+export default My_Buttons
