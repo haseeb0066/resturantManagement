@@ -1,12 +1,14 @@
 import {MEALS, CATEGORIES} from '../../data/dummy-data';
-import { TOGGLE_FAVORITE } from '../actions/meals';
+import { TOGGLE_FAVORITE,SET_MEALS } from '../actions/meals';
 import {CATEGORY_ID, CLEAR, CATID_UPDATE} from '../actions/meals';
 import {useEffect} from 'react';
+
+
 const initialState={
   
     meals:MEALS,
     categoryId:CATEGORIES,
-    filteredMeals:MEALS,
+   // filteredMeals:MEALS,
     favoriteMeals:[],
     catId:[''],
    // bb:["c1","c2"]
@@ -16,20 +18,39 @@ const initialState={
     
 };
 
-
+// useEffect(() => {
+  // fetch('http://food.theflashdemo.com/api/all_meal')
+  //   .then((response) => response.json())
+  //   .then((json) => {
+  //     initialState.meals=json.Meals
+  //     console.log("initialState.meals",initialState.meals)
+  //     // setTitle(json.name)
+  //     // setDescription(json.image);
+  //   })
+  //   .catch((error) => console.error(error))
+    // .finally(() => setLoading(false));
+// }, []);
 
 const mealReducer = (state = initialState, action) => {
     switch (action.type) {
+      case SET_MEALS:
+      return {
+        meals: action.meals,
+        // userProducts: action.meals.filter(catId => catId.id === 'c1')
+      };
       case TOGGLE_FAVORITE:
         const existingIndex = state.favoriteMeals.findIndex(
           meal => meal.id === action.mealId
         );
+       
         if (existingIndex >= 0) {
           const updatedFavMeals = [...state.favoriteMeals];
           updatedFavMeals.splice(existingIndex, 1);
+         
           return { ...state, favoriteMeals: updatedFavMeals };
         } else {
           const meal = state.meals.find(meal => meal.id === action.mealId);
+          
           return { ...state, favoriteMeals: state.favoriteMeals.concat(meal) };
         }
         case CATID_UPDATE:

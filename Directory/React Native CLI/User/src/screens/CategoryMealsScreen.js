@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import { CATEGORIES} from '../data/dummy-data';
 import { useSelector, useDispatch } from 'react-redux';
 import MealList from '../components/MealList';
@@ -10,23 +10,36 @@ import DesiMealList from '../components/DesiMealList';
 const CategoryMealScreen = props => {
     
   const catId = props.navigation.getParam('categoryId');
-const availableMeals=useSelector(state=>state.mealReducer.meals);
-  const displayedMeals =availableMeals.filter(
-    meal => meal.categoryIds.indexOf(catId) >= 0
+
+  const availableMeals=useSelector(state=>state.mealReducer.meals);
+  const [mealData,setMealData]=useState({})
+
+  useEffect(() => {
+    fetch('http://food.theflashdemo.com/api/all_meal')
+     .then((response) => response.json())
+     .then((json) => setMealData(json))
+     .catch((error) => console.error(error))
+
+     // console.log(citiesList , "List of Cities")
+  }, []);
+
+
+  const displayedMeals=availableMeals.filter(
+    meal => meal.resturant_id.indexOf(catId) >= 0
   );
   
- 
+ console.log("mealData",mealData.Meals)
 
 //console.log(displayedMeals);
 // console.log(displayedMeals.price)
 //console.log(offerMeals)
 
     
-      return <MealList listData={displayedMeals} navigation={props.navigation} />
+      // return <MealList listData={displayedMeals} navigation={props.navigation} />
     
     // if(catId==='c2')
     // {
-    //   return <DesiMealList listData={displayedMeals} navigation={props.navigation} />;
+      return <DesiMealList listData={displayedMeals} navigation={props.navigation} />;
     // }
 
 
@@ -35,7 +48,8 @@ const availableMeals=useSelector(state=>state.mealReducer.meals);
 CategoryMealScreen.navigationOptions = navigationData => {
   const catId = navigationData.navigation.getParam('categoryId');
 
-  const selectedCategory = CATEGORIES.find(cat => cat.id === catId);
+  const selectedCategory = 0;
+  // CATEGORIES.find(cat => cat.id === catId);
 
   // return {
   //   headerTitle: navData.navigation.getParam('title')

@@ -15,9 +15,11 @@ import {
 
 import Forms from '../components/Forms';
 import Logos from '../components/Logos';
+import Spinner from 'react-native-loading-spinner-overlay';
 import SignupScreen from './SignupScreen';
 import My_Buttons from '../components/MyButtonAndroid';
 import * as Animatable from 'react-native-animatable';
+import Colors from '../constants/Colors';
 //import { showLoader, hideLoader } from '../components/AppLoader';
 
 
@@ -25,43 +27,86 @@ const LoginScreen = (props) => {
   const [email, setEmail] = useState('xyz@gmail.com');
   const [password, setPassword] = useState('12345');
   const [state, setState] = useState(true);
+  const [loginResponse, setLoginResponse]=useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const resData=0;
 
 
 // showLoader = () => { this.setState({ showLoader:true }); };
 // hideLoader = () => { this.setState({ showLoader:false }); };
+const register= async()=>{
+  setIsLoading(true)
+  await fetch('http://food.theflashdemo.com/api/login', {
+  method: 'POST',
+  mode:'no-cors',
+  headers: {
+    Accept: 'application/json',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    email: email,
+    password: password,
+    
+  }),
+  })
+  
+  .then((response) => response.json())
+  .then((responseData) => {
+  // setLoginResponse(responseData);
+ 
+  console.log("POST Response", "Response Body -> " + JSON.stringify(responseData));
+  //setLoginResponse(responseData.Msg);
+ ;
+  if(responseData.Msg==='Login Successful'){
+    handleLogin();
+ }
+ else{
+   console.log("else part ,  This is Incorrect...")
+   Alert.alert(
+     "Wrong!",
+     "Please write correct email or password.");
+     setIsLoading(false);
+   // alert("Please write correct email or password")
+ }
+  
+    
+  // console.log("loginResponse",loginResponse);
+  
+})
+// .then((response) => {
+  
+// })
+.done();
+// .catch((error)=>{
+//   console.log(error);
 
+// })
+
+}
 
   //setState({ spinner: false });
 
-  const handleLogin=()=>{
-    console.log("Handle Login")
+  
+  const handleLogin=async()=>{
+    // console.log("hanji",resData.Msg)
 
-    var checkEmail = "xyz@gmail.com"; 
-    var checkPassword = "12345";
     
-      if((email== checkEmail ) && (password== checkPassword))
-        {
-          //showLoader();
-          console.log("If part")
-          props.navigation.navigate({
-            routeName:'Categories'
-          })
-          //hideLoader();
-        }
-      
-      else{
-          console.log("else part ,  This is Incorrect...")
-          alert("Please write correct email or password")
-      }
+ 
+    await props.navigation.navigate({
+      routeName:'Categories'
+    })
+  
+  setIsLoading(false);
 
       //setEmail("");  
       //setPassword("");
       
     }
-
+ 
 
 
   return (
+    
     <View style={styles.container}>
 
     <View style={styles.spinnerv}>
@@ -88,7 +133,7 @@ const LoginScreen = (props) => {
             autoCapitalize="none"
             placeholderTextColor="#ffffff"
             keyboardType="email-address"
-            value={email}
+            // value={email}
             onChangeText={(e) => setEmail(e)}
             initialValue=""
           />
@@ -102,18 +147,35 @@ const LoginScreen = (props) => {
             required={true}
             minLength={6}
             errorMessage="Incorrect Password!!"
-            value={password}
+            // value={password}
             secureTextEntry={true}
             onChangeText={(e) => setPassword(e)}
             initialValue=""
           />
           
           </KeyboardAvoidingView>
+          {isLoading ? (
+          <Spinner
+          //visibility of Overlay Loading Spinner
+          visible={isLoading}
+          // size="normal"
+          // animation='fade'
+          //Text with the Spinner
+          // textContent={'Loading...'}
+          //Text style of the Spinner Text
+          // textStyle={styles.activityIndicator}
+        />):(
+
+        // )}
+        //   {isLoading ? (
+        //   <ActivityIndicator size="large" color={Colors.accentColor} style={styles.activityIndicator}/>
+        //   ) : (
           <TouchableOpacity style={styles.button}
-            onPress={() => {handleLogin()} }
+            onPress={register}
             >
             <Text style={styles.buttonText}>Login</Text>
           </TouchableOpacity>
+          )}
           
         </View>
 
@@ -143,6 +205,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#EE0202',
   },
+  activityIndicator: {
+    // backgroundColor:'#FFF',
+    // alignItems: 'center',
+    // justifyContent: 'center',
+    // alignSelf:"center",
+    fontSize:25,
+    width:"60%",
+    color: Colors.accentColor,
+ },
 
 spinner: {
       //flex: 1,

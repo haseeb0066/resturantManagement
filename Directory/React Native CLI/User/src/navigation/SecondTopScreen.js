@@ -288,7 +288,8 @@ import HeaderImageScreen from '../screens/HeaderImageScreen';
            Favs:{
                 screen: ChooseNavigator,
                 navigationOptions: {
-                 drawerLabel: 'Deal',
+                  drawerLockMode: 'locked-closed',
+                 //drawerLabel: 'Deal',
                   headerShown: false,
                   headerMode: 'none',
                   // style:{flex:2}

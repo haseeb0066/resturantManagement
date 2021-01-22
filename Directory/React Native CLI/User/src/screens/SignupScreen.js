@@ -10,16 +10,90 @@ import {
   ScrollView,
   KeyboardAvoidingView
 } from 'react-native';
-
+import NumberFormat from 'react-number-format';
 import Logos from '../components/Logos';
 import LoginScreen from './LoginScreen';
-import {useState} from 'react';
+import Spinner from 'react-native-loading-spinner-overlay';
+import {useState, useEffect} from 'react';
 
 const SignupScreen = (props) => {
   const [email, setEmail] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
   const [password, setPassword] = useState('');
   const [userName, setUsername] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
+
+
+  const signing=()=>{
+    console.log("yess")
+    
+
+    // const response = await fetch('http://food.theflashdemo.com/api/register', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json'
+    //   },
+    //   body: JSON.stringify({
+    //     username: 'userName',
+    //     email: 'email',
+    //     password: 'password',
+    //     num: 'phoneNumber',
+    //   })
+    // });
+
+    //const resData =  response.json();
+  }
+
+  const register= async()=>{
+    setIsLoading(true)
+    await fetch('http://food.theflashdemo.com/api/register', {
+    method: 'POST',
+    mode:'no-cors',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      username: userName,
+      email: email,
+      password: password,
+      num: phoneNumber,
+    }),
+  })
+  .then((response) => response.json())
+  .then((responseData) => {
+    console.log("POST Response", "Response Body -> " + JSON.stringify(responseData))
+    if(responseData.Msg==='Register successfully'){
+      handleLogin();
+    }
+    else{
+      console.log("else part ,  This is Incorrect...")
+      alert("try again , You dont follow the rules")
+      setIsLoading(false);
+    }
+    // console.log("loginResponse",loginResponse);
+    
+  })
+  // })
+  .done();
+  // .catch((error)=>{
+  //   console.log(error);
+  // })
+  
+  }
+
+  const handleLogin=async()=>{
+    // console.log("hanji",resData.Msg)
+    await props.navigation.navigate({
+      routeName:'Categories'
+    })
+  
+    setIsLoading(false);
+
+      //setEmail("");  
+      //setPassword("");
+      
+  }
 
 
   const handleSignupButton = () => {
@@ -43,22 +117,23 @@ const SignupScreen = (props) => {
       return;
     }
 
-    console.log(email , password, userName, phoneNumber)
+    // console.log(email , password, userName, phoneNumber)
 
     if((email !=null) && (password !=null) && (phoneNumber!=null) && (userName !=null))
     {
-      props.navigation.navigate({
-        routeName:'Categories' 
-        })
+      
+    register();
+   
+    
     }
     else{
       alert("try again , You dont follow the rules")
     }
 
-    setEmail("");
-    setPassword("");
-    setPhoneNumber("");
-    setUsername("");
+    // setEmail("");
+    // setPassword("");
+    // setPhoneNumber("");
+    // setUsername("");
 
   }
 
@@ -105,14 +180,29 @@ const SignupScreen = (props) => {
           <TextInput
             style={styles.inputArea}
             placeholder="Email"
+            format="#######-#"
+            // mask="_"
             required={true}
             autoCapitalize="none"
             placeholderTextColor="black"
+            // className={!email ? '' : 'red-border'}
             keyboardType="email-address"
             errorMessage="Please enter a valid email address."
             value={email}
             onChangeText={(value) => setEmail(value)}
             initialValue=""
+          />
+          {/* <NumberFormat value={email} thousandSeparator={true} prefix={'$'} /> */}
+          {/* <NumberFormat format="##/##" placeholder="MM/YY" mask={['M', 'M', 'Y', 'Y']} value={email} /> */}
+          <NumberFormat 
+          format="#######-#" placeholder="#######-#" mask="_" 
+          // numberFormat="#######-#"
+          // numberMask="_" 
+           value={email}
+           onValueChange={(value) => setEmail(value)}
+          
+          customInput={TextInput} 
+          style={styles.inputArea}
           />
 
           <TextInput
@@ -128,14 +218,26 @@ const SignupScreen = (props) => {
             onChangeText={(value) => setPhoneNumber(value)}
             initialValue=""
           />
+           {isLoading ? (
+          <Spinner
+          //visibility of Overlay Loading Spinner
+          visible={isLoading}
+          // size="normal"
+          // animation='fade'
+          //Text with the Spinner
+          // textContent={'Loading...'}
+          //Text style of the Spinner Text
+          // textStyle={styles.activityIndicator}
+        />):(
 
           <TouchableOpacity
           style={styles.signupButton}
           activeOpacity={0.7}
-           onPress={() => { handleSignupButton ()} }>
+           onPress={handleSignupButton}>
 
           <Text style={styles.signupButtonText}> Sign Up</Text>
         </TouchableOpacity>
+        )}
 
 
           <View style={styles.signupContianer}>
@@ -145,9 +247,11 @@ const SignupScreen = (props) => {
           <TouchableOpacity
             style={styles.button}
             activeOpacity={0.5}
+            
             onPress={() => {
             props.navigation.navigate({routeName: 'LoginScreen'});
-            }}>
+            }}
+            >
             <Text style={styles.buttonText}> Sign In</Text>
           </TouchableOpacity>
 

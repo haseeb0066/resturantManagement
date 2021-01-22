@@ -125,7 +125,8 @@ import HeaderIamge from '../components/HeaderImage';
             TopFavs:{
                 screen: AppNavigator,
                 navigationOptions: {
-                  drawerLabel: 'Delivery',
+                  drawerLockMode: 'locked-closed',
+                 // drawerLabel: 'Delivery',
                   // title: '',
                   // headerShown: false,
                   // headerMode: 'none'

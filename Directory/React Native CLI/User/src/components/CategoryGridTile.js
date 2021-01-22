@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {
   TouchableOpacity,
   View,
@@ -8,20 +8,35 @@ import {
   ImageBackground,
   TouchableNativeFeedback 
 } from 'react-native';
+import Spinner from 'react-native-loading-spinner-overlay';
 
 const CategoryGridTile = props => {
   let TouchableCmp = TouchableOpacity;
+  const [isLoading, setIsLoading] = useState(false);
 
   if (Platform.OS === 'android' && Platform.Version >= 21) {
     TouchableCmp = TouchableNativeFeedback;
   } 
   return (
     <View style={styles.gridItem}>
+      {isLoading ? (
+          <Spinner
+          //visibility of Overlay Loading Spinner
+          visible={isLoading}
+          // size="normal"
+          // animation='fade'
+          //Text with the Spinner
+          // textContent={'Loading...'}
+          //Text style of the Spinner Text
+          // textStyle={styles.activityIndicator}
+        />):(
+          // setIsLoading(true),
       <TouchableCmp style={{ flex: 1 }} onPress={props.onSelect}>
         {/* <View style={{ ...styles.container, ...{ ImageBackground: props.image } }}> */}
         <View style={{ ...styles.mealRow, ...styles.mealHeader }}>
             <ImageBackground
-              source={{ uri: props.image }}
+            require={(props.image)}
+              // source={{ uri: props.image }}
               style={styles.bgImage}
             >
               <View style={styles.titleContainer}>
@@ -33,7 +48,9 @@ const CategoryGridTile = props => {
           </View>
         {/* </View> */}
       </TouchableCmp>
-      <Text></Text>
+      // setIsLoading(false)
+        )}
+      
     </View>
   );
 };

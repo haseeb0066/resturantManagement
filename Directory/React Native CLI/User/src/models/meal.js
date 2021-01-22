@@ -1,7 +1,7 @@
 class Meal {
   constructor( 
     id,
-    categoryIds,
+    resturant_id,
     type,
     title,
     persons,
@@ -15,7 +15,7 @@ class Meal {
     // isLactoseFree
   ) {
     this.id = id;
-    this.categoryIds = categoryIds;
+    this.resturant_id = resturant_id;
     this.type=type
     this.title = title;
     this.imageUrl = imageUrl;

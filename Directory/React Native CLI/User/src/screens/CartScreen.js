@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, Text, FlatList, Button, StyleSheet, TouchableOpacity } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, FlatList, Button, StyleSheet, TouchableOpacity,ActivityIndicator } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 
 import Colors from '../constants/Colors';
@@ -14,6 +14,7 @@ const CartScreen = props => {
   // const Id = useSelector(state => state.meals );
   // const selectedMeal = availableMeals.find(meal => meal.id === Id);
   // console.log(mealId,"  mealID  ", selectedMeal , "   selected  ")
+  const [isLoading, setIsLoading] = useState(false);
 
   const cartTotalAmount = useSelector(state => state.cart.totalAmount);
   const cartItems = useSelector(state => {
@@ -42,6 +43,17 @@ const CartScreen = props => {
   // console.log(mealId,"  mealID  ", selectedMeal , "   selected  ")
 
   const dispatch = useDispatch();
+  const sendOrderHandler = async () => {
+    setIsLoading(true);
+    await props.navigation.navigate({ routeName: ('PaymentScreen'),
+    params: {
+      mealId: cartItems,
+      totalAmount: cartTotalAmount
+     }
+    });    
+    setIsLoading(false);
+  };
+
 
   return (
     <View style={styles.screen}>
@@ -53,7 +65,19 @@ const CartScreen = props => {
           </Text>
         </Text>
 
-        
+        {isLoading ? (
+          <ActivityIndicator size="small" color={Colors.primary} />
+        ) : (
+          <TouchableOpacity
+            
+            style={styles.orderNow}
+           disabled={cartItems.length === 0}
+            color="white"
+            onPress={sendOrderHandler}
+          >
+            <Text style={styles.buttonText}>Order Now</Text>
+          </TouchableOpacity>
+        )}
         {/* <Button
           color={Colors.accent}
           title="Order Now"
@@ -64,23 +88,7 @@ const CartScreen = props => {
           }}
         /> */}
 
-          <TouchableOpacity
-            
-            style={styles.orderNow}
-           disabled={cartItems.length === 0}
-            color="white"
-            onPress={() => {
-              //dispatch(ordersActions.addOrder(cartItems, cartTotalAmount));
-              props.navigation.navigate({ routeName: ('PaymentScreen'),
-              params: {
-                mealId: cartItems,
-                totalAmount: cartTotalAmount
-               }
-              });        
-            }}
-          >
-            <Text style={styles.buttonText}>Order Now</Text>
-          </TouchableOpacity>
+          
 
 
       </Card>

@@ -8,6 +8,8 @@ target 'User' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'react-native-image-crop-picker', :path => '../node_modules/react-native-image-crop-picker'
+
   target 'UserTests' do
     inherit! :complete
     # Pods for testing

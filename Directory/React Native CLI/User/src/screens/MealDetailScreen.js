@@ -11,14 +11,13 @@ import {
   ImageBackground
 } from 'react-native';
 import { HeaderButtons, Item } from 'react-navigation-header-buttons';
-//import * as Animatable from 'react-native-animatable';
 import { useSelector, useDispatch } from 'react-redux';
 import * as cartActions from '../store/actions/cart';
 import * as mealsActions from '../store/actions/meals';
 import HeaderButton from '../components/HeaderButton';
 import DefaultText from '../components/DefaultText';
 import Colors from '../constants/Colors';
-//import Icon from 'react-native-vector-icons/Ionicons'
+
 
 
 
@@ -42,35 +41,21 @@ const MealDetailScreen = props => {
     state.mealReducer.favoriteMeals.some(meal => meal.id === mealId)
   );
   const selectedCatId=(selectedMeal.categoryIds).toString();
-  //console.log("string",selectedCatId)
+  console.log("string",selectedCatId)
   dispatch(mealsActions.category_id(selectedCatId));
   
  const CatId=useSelector(state=>state.mealReducer.catId);
-  //console.log("CatId",CatId)
+  console.log("CatId",CatId)
   
     const func=()=>{
      // console.log("selectedMeal.categoryIds",selectedMeal.categoryIds)
      // for(var i=0;CatId[i]<=1;i++ ){
       
-      // console.log("selectedMeal.categoryIds",selectedMeal.categoryIds)
+       console.log("selectedMeal.categoryIds",selectedMeal.categoryIds)
         if(CatId==selectedMeal.categoryIds)
       {
-        //console.log("if",CatId);
-
-        return (
-        //   <Animatable.View
-        //   animation="bounceInDown"
-        //   duration={2000}
-        //   >
-        //      <Icon 
-        // name="ios-cart" 
-        // size={30} 
-        // color={Colors.primaryColor} 
-        // onPress={() => props.navigation.navigate('Cart')} 
-        // />
-          dispatch(cartActions.addToCart(selectedMeal))
-    // </Animatable.View>
-       )
+        console.log("if",CatId);
+        return dispatch(cartActions.addToCart(selectedMeal));
        
         
         //activeCat=selectedMeal.categoryIds;
@@ -87,7 +72,7 @@ const MealDetailScreen = props => {
             },
             { text: "OK", onPress: () => {
               dispatch(cartActions.allClear(1));
-             // console.log("send  : ",selectedMeal.categoryIds);
+              console.log("send  : ",selectedMeal.categoryIds);
               
              // dispatch(mealsActions.set_new_catid(selectedMeal.categoryIds));
               dispatch(cartActions.addToCart(selectedMeal));

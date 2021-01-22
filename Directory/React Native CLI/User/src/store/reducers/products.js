@@ -1,19 +1,26 @@
 import {
   DELETE_PRODUCT,
   CREATE_PRODUCT,
-  UPDATE_PRODUCT
+  UPDATE_PRODUCT,
+  SET_PRODUCTS
 } from '../actions/products';
 import { MEALS } from '../../data/dummy-data';
 //import Product from '../../models/product';
 import Meal from '../../models/meal';
 
+
 const initialState = {
-  availableProducts: MEALS,
+  availableProducts: [],
   userProducts: MEALS.filter(meal => meal.id === 'm1a')
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
+    case SET_PRODUCTS:
+      return {
+        availableProducts: action.products,
+        // userProducts: action.products.filter(catId => catId.id === 'u1')
+      };
     case CREATE_PRODUCT:
       const newProduct = new Meal(
         new Date().toString(),

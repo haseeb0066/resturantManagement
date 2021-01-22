@@ -14,6 +14,10 @@ import {
   Button } from 'react-native';
 import Header from '../components/Header';
 import { HeaderButtons, Item } from 'react-navigation-header-buttons';
+import ImagePicker from 'react-native-image-picker';
+import {launchCamera, launchImageLibrary} from 'react-native-image-picker';
+  // import {launchCamera, launchImageLibrary} from 'react-native-image-picker';
+//import ImagePicker from 'react-native-image-crop-picker';
 import  Icon  from 'react-native-vector-icons/Ionicons';
 import  MaterialCommunityIcons  from 'react-native-vector-icons/MaterialCommunityIcons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
@@ -40,6 +44,8 @@ const ProfileScreen: React.FC = (props) => {
 
     const [emails, setEmails] = useState(e1);
     const [names, setNames] = useState(n1);
+    const [isTakeawaySelected, setTakeawaySelection] = useState(false);
+    const [photoState, setPhotoState] = useState({photo:null});
     //const [phones, setPhones] = useState(p1);
 
     const [value, setValue] = useState(p1);
@@ -48,7 +54,28 @@ const ProfileScreen: React.FC = (props) => {
     const [showMessage, setShowMessage] = useState(false);
     const phoneInput = useRef(null);
 
-    
+    const handleChoosePhoto = () => {
+      const options = {
+        noData: true,
+      };
+  
+      launchImageLibrary(options, (response) => {
+        if (response.uri) {
+          setPhotoState ({ photo: response });
+        }
+      });
+
+      console.log(photo);
+  
+      // launchCamera(options , (response) => {
+      //   if (response.uri) {
+      //     setPhotoState ({ photo: response });
+      //   }
+      // });
+  
+      //console.log('response   ',  response)
+    };
+  
 
     const addPhoto=()=>{
         
@@ -101,6 +128,7 @@ const ProfileScreen: React.FC = (props) => {
       // }});
 
     }
+    const { photo } = photoState;
 
     return (
       <View style={styles.screen}>
@@ -113,15 +141,21 @@ const ProfileScreen: React.FC = (props) => {
                <ImageBackground
                  style={styles.image}
                  imageStyle={{ borderRadius: 65 , borderWidth:1,  }}
-                source={require('../images/profile.jpg')}>
+                source={photo}
+                >
                 
                 <View style={styles.photoStyle}>
                 <Animatable.View
                 animation="rubberBand"
                 duration={5000}
                 >
-  
-                <TouchableOpacity  onPress={()=>{addPhoto()}} >
+                  {photo && (
+                 <Image
+                    source={{ uri: photo.uri }}
+                    // style={styles.photoStyle }
+                  />
+                )}
+                <TouchableOpacity  onPress={()=>{handleChoosePhoto()}} >
                 <Icon name="camera"  size={21}
                 style={styles.iconStyle}
                   color='white'
@@ -374,3 +408,199 @@ const ProfileScreen: React.FC = (props) => {
 
 
 
+//  import React , {useState} from 'react';
+//   import { View, Text, Image, Button, StyleSheet } from 'react-native';
+//   import ImagePicker from 'react-native-image-picker';
+//   //import {launchImageLibrary} from 'react-native-image-picker'
+//   import {launchCamera, launchImageLibrary} from 'react-native-image-picker';
+  
+//   export default function UploadPhoto () {
+//     // state = {
+//     //   photo: null,
+//     // };
+  
+//     const [photoState, setPhotoState] = useState({photo:null});
+  
+//     const handleChoosePhoto = () => {
+//       const options = {
+//         noData: true,
+//       };
+  
+//       // launchImageLibrary(options, (response) => {
+//       //   if (response.uri) {
+//       //     setPhotoState ({ photo: response });
+//       //   }
+//       // });
+  
+//       launchCamera(options , (response) => {
+//         if (response.uri) {
+//           setPhotoState ({ photo: response });
+//         }
+//       });
+  
+//       //console.log('response   ',  response)
+//     };
+  
+//     // render() {
+//       const { photo } = photoState;
+//       return (
+//         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+//           {photo && (
+//             <Image
+//               source={{ uri: photo.uri }}
+//               style={styles.photoStyle }
+//             />
+//           )}
+//           <Button title="Choose Photo"   onPress={()=>{handleChoosePhoto()}} />
+//         </View>
+//       )
+//     // }
+//   }
+  
+//   const styles=StyleSheet.create({
+    
+//     message:{
+  
+//       justifyContent: 'center',
+//       alignItems: 'center',
+//     },
+  
+//     screen:{
+//       flex:1,
+//       //alignContent:'center',
+//       //alignItems: 'center'
+//       // justifyContent: 'center'
+//     },
+  
+//     inputArea:{
+//       marginVertical:15,
+//       height: 50, 
+//       width:"85%",
+//       backgroundColor: "#d9d9d9", 
+//       borderRadius:25,
+//       paddingHorizontal:10,
+//       borderColor:'#EE0202',
+//       borderWidth:0.5,
+//   },
+  
+//   phoneStyle:{
+  
+//     borderRadius:25,
+//     borderWidth:.5,
+//     borderColor:'#EE0202',
+//     marginTop:20,
+//     width:'85%',
+//     height: 60,
+//   },
+  
+//   textStyle:{
+  
+//     borderRadius:25,
+//     paddingTop:5,
+//     //marginTop:10,
+//     alignContent:'center',
+//     backgroundColor:"#d9d9d9",
+//     //color:'black'
+//   },
+  
+//     header:{
+    
+//       flex: 1,
+//       alignItems: "center",  
+//     },
+  
+//     iconStyle:{
+  
+//       alignItems: 'center',
+//       justifyContent: 'center',
+//       backgroundColor:'#EE0202',
+//       height: 60,
+//       width: 60
+//     },
+   
+  
+//     textDatas:{
+//       marginLeft:15,
+//     },
+  
+    
+    
+  
+//     container:{
+//       flexGrow:1,
+//       justifyContent: 'center',
+//       alignItems:'center',
+//       paddingTop:10,
+//       paddingBottom:10,
+//     },
+  
+//     logotext:{
+//         marginVertical:5,
+//         marginHorizontal:130,
+//         fontSize:30,
+//         color:"#EE0202",
+//         alignItems: 'center',
+//         // justifyI: 'center',
+//         alignContent:'center',
+//         //fontStyle:"italic",
+//         fontWeight:"bold",
+//         borderBottomWidth:1,
+//         borderBottomColor:"#EE0202",
+//     },
+  
+//     textData:{
+//       marginVertical:3,
+//       justifyContent: 'center',
+//       alignItems:'center',
+//     },
+  
+//     text:{
+//       alignItems:'center',
+//       fontSize:16,
+//       color:'black',
+//     },
+  
+//     image:{
+  
+//       width: 130,
+//       height: 130,
+//       alignItems: 'center',
+//       marginBottom:10
+//     },
+  
+//     photoStyle:{
+  
+//       position: 'absolute',
+//       //  right:0,
+//       //  top: 0,
+//        backgroundColor: "#EE0202",
+//        borderRadius:25,
+//        width: 200,
+//        height: 200,
+//        marginLeft:5 
+//       },
+  
+//     buttonView:{
+//       marginTop:20,
+//       alignItems: 'center', 
+//       paddingBottom:10 
+//   },
+  
+//   button: {
+//     marginTop:20,
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//     marginHorizontal:10,
+//     width:'40%',
+//     height:35,
+//     backgroundColor:'#EE0202',
+//     borderRadius:25,
+//   },
+  
+//   buttonText: {    
+//     color:'#ffffff',
+//     fontWeight:'bold',
+//     fontSize: 20
+//   }
+  
+//   }) 
